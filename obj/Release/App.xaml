@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="且行且烹饪.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:且行且烹饪">
+
+</Application>
+

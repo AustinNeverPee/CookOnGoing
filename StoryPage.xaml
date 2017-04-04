@@ -1,0 +1,62 @@
+﻿<Page
+    x:Class="且行且烹饪.StoryPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:且行且烹饪"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.TopAppBar>
+        <AppBar>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="1356">
+                <AppBarButton Icon="RepeatAll" Label="刷新" />
+                <AppBarButton x:Name="Home" Icon="Home" Label="主页" Click="Home_Click" />
+                <AppBarButton Icon="Favorite" Label="收藏" />
+            </StackPanel>
+        </AppBar>
+    </Page.TopAppBar>
+
+    <Grid Background="#FFB7E53C">
+        <Image Margin="1181.138,13.936,113.296,680.054" Source="Assets/line_1.jpg" Stretch="Fill" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Image.RenderTransform>
+                <CompositeTransform Rotation="40.231"/>
+            </Image.RenderTransform>
+        </Image>
+        <Image Margin="1311.436,41.163,23.997,685.837" Source="Assets/line_1.jpg" Stretch="Fill" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <Image.RenderTransform>
+                <CompositeTransform Rotation="75.742" ScaleX="-1"/>
+            </Image.RenderTransform>
+        </Image>
+        <Image Margin="327,63,980,43" Source="Assets/line_.jpg" Stretch="Fill"/>
+        <TextBlock HorizontalAlignment="Left" Margin="41,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="117" Width="269" FontSize="48" FontFamily="Android Emoji" TextAlignment="Center">
+    		<Span>
+    			<Run Text="魂牽夢縈的味道"/>
+    		</Span>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="74,393,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="246" Width="236" FontSize="32" FontFamily="Android Emoji">
+    		<Run Text="@阿里食神"/>
+    		<LineBreak/>
+    		<Run Text=" "/>
+    		<Run Text="豆瓣"/>
+    		<Run Text="资深用户，经常与大家分享自己的"/>
+    		<Run Text="美食经历"/>
+    		<LineBreak/>
+    		<Run Text=""/>
+    		<LineBreak/>
+    		<Run/>
+        </TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="418,94,0,0" TextWrapping="Wrap" Text="    熟悉我的人都知道，薑撞奶是我最愛的甜品之一。特別是在寒冷的冬天，吃上一碗薑撞奶，那股滿足絕對可以讓我在雪地上裸奔，嘿嘿!&#xD;&#xA;    永遠記得我第一次吃薑撞奶，是在1995年的初春。某日被班主任叫去辦公室，說讓我參加一個系學生會的活動，當時還是新生，自然就乖乖的參加，更沒有多問，後來去參加的時候才發現，全班只叫了3個人參加，另外兩個是正副班長。上了學校的大巴，根本不知道要去哪裡，反正估計不會把我給賣了。雖然我知道，賣掉我，如果論斤秤，絕對可以賺很多錢，哈哈！車子開了快半個小時，才知道原來這是一個到順德大良鎮和容奇鎮參觀企業文化，反正我就是把它當做是旅遊，就去玩唄~回到學校別讓我交什麽報告就好。印象中車子開了一個多小時，然後就有所謂的畢業大師兄過來接待，當時還看了不少的工廠，什麽美的、容聲之類的品牌，更順道參觀了順德大良的市容，然後車子就停靠在一個蠻古色古香的地方。就在哪裡，我在玩了一會兒之後，累了，就跑去休息。接著，被我發現有一個小攤販在售賣特色食物-薑撞奶，對於天性就好吃的我，當然會去嘗試，結果乖乖不得了，吃了之後就不能自拔，當天我一個人吃了三碗薑撞奶和兩碗雙皮奶，要不是班主任在一旁阻止我別再吃下去，估計我還會繼續的吃。&#xD;&#xA;     這是我當年在順德遊覽，印象最深刻的事情，自從那次之後，只要看見有薑撞奶和雙皮奶，我總會跑去吃。可是，我就是吃不到當初我第一次吃的那種感動，總覺得缺了些什麽，但是我又說不出來，然後就安慰自己，第一次吃，當然記憶難忘。哪怕多年以後，再次造訪順德，黛大媽也帶我去吃當地最著名的薑撞奶，我就是還是覺得和我記憶中的不一樣，還是缺了些什麽，這個問題困惑了我好久好久。曾經問過順德的朋友　他們也不知道我說的是什麽地方。因為記憶中我第一次吃的那碗薑撞奶，是在一個小坡上面的一個小商店，名字我不記得了，更別說哪是什麽地方。&#xD;&#xA;     週六參加了紅専廠的活動，週日我又一個人跑去順德參加另外一場活動，活動的第一站，就是有著四百年歷史的順德大良西山廟，裏面還有順德博物館，這些都是後話，下次再說。可是當大夥兒都跑去拍照的時候，我卻被眼前的一幕景色震住了，這就是我記憶中的小山坡，還有一大棵樹，樹下有著一小間商店，賣著薑撞奶，大樹的樹蔭下，堆放著幾張簡單的桌子和椅子，就是那麼的簡樸。我壓抑著激動的心情，進去一探究竟，只見一個老婦人在店裡，再沒有任何的店員。老婦人正在製作牛乳，看到我，立刻站起來熱情的寒暄。&#xD;&#xA;    “食碗薑撞奶啦，大良最出名噶，包你食過番尋味”&#xD;&#xA;    “系咪婆婆你親自煮噶？薑撞奶大良到處都有得食啦~最出名嘅系仁信啵！”&#xD;&#xA;    “唓，佢哋嗰啲都唔好食，搞咗連鎖店，搵埋啲撈妹系度亂咁搞，一啲都唔正宗，送畀我都唔食！”&#xD;&#xA;    “哇!婆婆你咁大口氣啊~咁你嘅薑撞奶又有咩特別啊？”&#xD;&#xA;    “婆婆我上過報紙同雜誌噶，個個都叫我做梁婆婆，我地家族做咗五代嘅薑撞奶啦！我八歲就開始做”&#xD;&#xA;    “唓~薑撞奶好易撞嘖，使唔使咁巴閉啊？你當年八歲都識啦！”&#xD;&#xA;    “哇~哥仔你咁嚟講嘢啊!夠膽你就試下婆婆嘅薑撞奶，唔好食我就唔收錢！”&#xD;&#xA;    “嗱~呢啲說話婆婆你自己講噶，咪到時告我白撞，食嘢唔俾錢啊”&#xD;&#xA;    “你放心，婆婆幾十歲，牙齒當金洗，你要小甜定系甜啲啊？”&#xD;&#xA;    “啊？薑撞奶都可以選擇甜度？”&#xD;&#xA;    “第二處就唔得，婆婆我就得”&#xD;&#xA;    “咁我要普通的甜度啦!唔好太甜”&#xD;&#xA;    但是當時她在忙碌的製作牛乳中，所以我就讓她繼續做，我先看看並且詢問了一大堆問題。原來梁婆婆是大良金榜村人，祖傳幾代都是製作奶製品的世家，梁老太今年65歲，傳到她這一代，已經是第五代，而且用的是祖傳秘方，只傳家人，不傳外人。她小時候，幾乎村內每家人都養殖幾頭牛，并製作大良最著名的金榜牛乳。她家當時就養殖了六頭奶牛，母親就在家製作牛乳，時不時會有人上門收貨，把牛乳帶到香港和海外去銷售。當時牛乳生意好，金榜村裡人生意都不錯，算是大良鎮的中上收入水平的小康之家。由於舊社會的男尊女卑，梁婆婆沒有機會讀書，八歲就隨母親在家製作牛乳。學會之後，又教給弟弟妹妹，婚後更將手藝傳授給丈夫和兒子。但是絕對不傳給外人，只傳家人。&#xD;&#xA;    如今自己守在這個城裡的新店，兒子和丈夫在市郊的老店，做了五十幾年牛乳的梁婆婆，手藝非常的嫺熟，只見一個小凳子，一個小煤氣爐在煮著鮮牛奶，梁婆婆就開始示範。只見她拿著一個小茶杯，先沾上一些米醋在杯底，然後再用半個雞蛋殼勺上牛奶倒入杯中，并用手攪拌一下，很快牛奶就凝固了，然後很快就取出，放在木模印具上面，用手指將凝固的牛乳抹平，再用手掌將牛乳裏面的米醋擠出來，再將薄薄的牛乳片從模具上掀起，然後丟入旁邊的鹽水缸里浸泡幾個小時，金榜牛乳就這樣大功告成。&#xD;&#xA;    看得我目瞪口呆，太神奇了，就好像魔術一樣，至少比劉謙的魔術精彩。儘管我的相機快門已經不停的按下，可是還是趕不及婆婆的每個工序。之後再獲悉，通常其他的店都是外購水牛奶，而梁婆婆卻堅持祖傳秘方，必須自己養殖水牛，而且自家還有一個小牧場　養了幾十頭牛，每天新鮮擠奶。而且這些她養殖的水牛，更是喂飼蜂蜜和雞蛋，因為這樣的牛擠出來的奶，奶味才會特別的香濃，而且帶有自然的甜味，這不是一般市面上的水牛奶再加白糖可以媲美的。我聽了之後口張得大大的，我的媽呀，這也太神奇了吧！&#xD;&#xA;    示範完了金榜牛乳的製作　梁婆婆開始為我製作薑撞奶。一面做一面說，薑撞奶的薑必須是黃薑，即叫即磨，不能在空氣中存放太久，這樣夠薑味之餘又不會太辣，搶走了奶香味。要做靚的撞奶，奶的溫度必須控制在80度，並且還有由低至高的手勢撞奶，必須既撞既凝固，如果撞完還水汪汪的等待凝固，那就是失敗的作品。按照梁婆婆的說法 “可以調頭就走，絕對唔好食，即刻退貨！”我以前可是見過無數次的薑撞奶，每次都是要等待一陣子才凝固，梁婆婆的薑撞奶，完全是即撞即凝固，我的口再次張得大大的，Amazing!&#xD;&#xA;    原來當初梁婆婆問我要的甜味程度，取決於水牛喂飼蜂蜜的分量來控制自帶的甜味。當第一口薑撞奶送入我的口中，我的雙眼頓時濕潤了起來，就是這個味道！我找了十五年，那股魂牽夢縈的味道，那股濃濃的奶香，那種入口即溶的順滑，原來喝奶也會醉人&#xD;&#xA;    “點啊？婆婆啲薑撞奶掂唔掂啊？”&#xD;&#xA;    我看著梁婆婆，無暇回答她的疑問，只把雙手抓拳合攏并一起豎起拇指，都舉起來。只見梁婆婆開心的笑著，臉上浮現著得意的光芒。&#xD;&#xA;    “要唔要試下婆婆嘅雙皮奶啊？”&#xD;&#xA;    “試！一定試！食唔到唔翻屋企！”&#xD;&#xA;    “咁你要熱嘅定系凍嘅雙皮奶啊？”&#xD;&#xA;    “啊？雙皮奶都系凍嘎啦，你都無微波爐，點叮熱啊？”&#xD;&#xA;    “傻仔，新鮮整出嚟嘅，梗系熱辣辣嘎啦!你算系有食神，不過你要凍嘅我都有！”&#xD;&#xA;    “熱！一定要熱!我未食過新鮮整出嚟嘅雙皮奶！”&#xD;&#xA;    吃完了薑撞奶，繼續吃雙皮奶，還是熱騰騰的，我再也想不出如何除了香滑以外的形容詞，如果說那種感覺，就好像重溫第一次ML的感覺吧!哈哈！&#xD;&#xA;    由於此站攝影活動的時間有限，我無暇再繼續久耗下去，離開的時候更不忘買了梁婆婆親手製作的牛乳。順德咸牛乳素有“中國芝士”的美譽，而且營養豐富。梁婆婆更介紹我一種吃牛乳的方式，煲熱牛奶然後放入兩片牛乳，製作成咸牛乳鮮奶，對上火清熱非常的見效。&#xD;&#xA;    “涼茶飲得多冇益，飲咸牛乳，除咗清熱仲可以養顏。”&#xD;&#xA;更介紹我一個用牛乳減肥的方式，哈哈!這是秘密。原本只打算買一瓶，最後還是買了兩瓶，不過另外一瓶很快就被搶走了。當然，這又是後話，下篇再說，呵呵。&#xD;&#xA;    離開走了幾步，我突然再掉頭回去問梁婆婆，她這家店開了多久？以為之前她說這是“新店”搞的我納悶不已，難道這不是我當年吃的那家嗎？只見梁婆婆想了一想，然後回答我。&#xD;&#xA;    “哇，計計埋埋，都大大話話開咗十六七年囖！”&#xD;&#xA;" VerticalAlignment="Top" Height="631" Width="919" FontSize="32" Background="#FFB7E53C" />
+        <Image Margin="130,303,1192,426" Source="Assets/赞.png" Stretch="Fill"/>
+        <TextBlock HorizontalAlignment="Left" Margin="184,309,0,0" TextWrapping="Wrap" Text="45789" VerticalAlignment="Top" Height="45" Width="97" FontSize="26.667"/>
+    </Grid>
+
+    <Page.BottomAppBar>
+        <AppBar>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <AppBarButton x:Name="Back" Icon="Back" Label="上一篇" Click="Back_Click"/>
+                <AppBarButton x:Name="Forward" Icon="Forward" Label="下一篇" Click="Forward_Click" />
+            </StackPanel>
+        </AppBar>
+    </Page.BottomAppBar>
+</Page>

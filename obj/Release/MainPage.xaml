@@ -1,0 +1,101 @@
+﻿<Page
+    x:Class="且行且烹饪.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:且行且烹饪"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    
+    <Grid Background="#FF51C45C">
+    	<VisualStateManager.VisualStateGroups>
+    		<VisualStateGroup x:Name="VisualStateGroup">
+    			<VisualStateGroup.Transitions>
+    				<VisualTransition GeneratedDuration="0">
+    					<Storyboard x:Name="actionRecipe">
+    						<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)" Storyboard.TargetName="Recipe">
+    							<EasingDoubleKeyFrame KeyTime="0" Value="3.843"/>
+    							<EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-6.635"/>
+    							<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-24.296"/>
+    							<EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-7.092"/>
+    							<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="6.178"/>
+    							<EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="16.465"/>
+    							<EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="30.28"/>
+    							<EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="42.354"/>
+    							<EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="15.365"/>
+    							<EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="8.506"/>
+    							<EasingDoubleKeyFrame KeyTime="0:0:1" Value="3.967"/>
+    						</DoubleAnimationUsingKeyFrames>
+    					</Storyboard>
+    				</VisualTransition>
+    			</VisualStateGroup.Transitions>
+    		</VisualStateGroup>
+    	</VisualStateManager.VisualStateGroups>
+        <Button x:ConnectionId='1' x:Name="Story" 
+                Content="" 
+                HorizontalAlignment="Left" 
+                Margin="420.363,498.308,0,0" 
+                VerticalAlignment="Top" 
+                Width="216.426" 
+                Height="124.45" 
+                BorderBrush="#FF3ECB3E" 
+                BorderThickness="0" 
+                Foreground="#FF299129"                     RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        	<Button.RenderTransform>
+        		<CompositeTransform Rotation="21.389"/>
+        	</Button.RenderTransform>
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/story.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:ConnectionId='2' x:Name="Me" 
+                Content="&#xD;&#xA;" 
+                HorizontalAlignment="Left" 
+                Margin="36.623,156.349,0,0" 
+                VerticalAlignment="Top" 
+                Height="200.302" 
+                Width="234.754" 
+                BorderBrush="#FF299129" 
+                FontSize="66.667" 
+                FontFamily="Aharoni" 
+                FontWeight="Bold" 
+                BorderThickness="0" 
+                Foreground="#FF299129"                  RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        	<Button.RenderTransform>
+        		<CompositeTransform Rotation="-9.769"/>
+        	</Button.RenderTransform>
+            <Button.Background>
+                <ImageBrush ImageSource="Assets/peoplr.jpg"/>
+            </Button.Background>
+        </Button>
+        <Image Margin="263,46,288,374" Source="Assets/title.jpg" Stretch="Fill"/>
+        <Button x:ConnectionId='3' x:Name="Recipe" 
+                Content="" 
+                HorizontalAlignment="Left" 
+                Margin="1088.5,102,0,0" 
+                VerticalAlignment="Top" 
+                Width="170" 
+                Height="154" 
+                BorderThickness="0" 
+                Foreground="#FF299129" 
+                BorderBrush="#FF299129"                      RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" >
+        	<Button.RenderTransform>
+        		<CompositeTransform Rotation="11.243"/>
+        	</Button.RenderTransform>
+            <Button.Background>
+            	<ImageBrush ImageSource="ms-appx:/Assets/bowl.jpg" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Image Margin="566.463,425.122,477.136,278.038" Source="Assets/line.jpg" Stretch="Fill" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        	<Image.RenderTransform>
+        		<CompositeTransform Rotation="-6.987"/>
+        	</Image.RenderTransform>
+        </Image>
+        <Button x:ConnectionId='4' x:Name="Setting" Content="&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="835,433,0,0" Height="252" Width="263" BorderThickness="0"                      >
+        	<Button.Background>
+        		<ImageBrush ImageSource="ms-appx:/Assets/table.jpg" Stretch="Fill"/>
+        	</Button.Background>
+        </Button>
+    </Grid>
+</Page>
+

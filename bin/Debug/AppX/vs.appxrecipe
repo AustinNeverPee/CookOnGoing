@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>YL-PC</Machine>
+    <WindowsUser>柳</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>22e1d152-08d5-4e7a-bdc9-c2c9e9d2ceaa</PackageIdentityName>
+    <RegisteredManifestChecksum>C269D4148DFDBD1D4C3ED136875A269EF44FA3B59E2B6412FAE8F70C9DF70174</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>22e1d152-08d5-4e7a-bdc9-c2c9e9d2ceaa_1.0.0.0_neutral__3bv0w507c2q4a</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>22e1d152-08d5-4e7a-bdc9-c2c9e9d2ceaa_3bv0w507c2q4a!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>22e1d152-08d5-4e7a-bdc9-c2c9e9d2ceaa</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=柳</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-09T08:28:22.223</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\bin\Debug\且行且烹饪.exe">
+      <PackagePath>且行且烹饪.exe</PackagePath>
+      <Modified>2014-06-09T11:28:48.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\Assets\bowl.jpg">
+      <PackagePath>Assets\bowl.jpg</PackagePath>
+      <Modified>2014-06-05T11:38:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\Assets\initial.scale-180.jpg">
+      <PackagePath>Assets\initial.scale-180.jpg</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-06T05:47:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\Assets\line.jpg">
+      <PackagePath>Assets\line.jpg</PackagePath>
+      <Modified>2014-06-05T13:18:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\Assets\line_.jpg">
+      <PackagePath>Assets\line_.jpg</PackagePath>
+      <Modified>2014-06-05T13:44:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\Assets\line_1.jpg">
+      <PackagePath>Assets\line_1.jpg</PackagePath>
+      <Modified>2014-06-05T13:51:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\Assets\line_2.jpg">
+      <PackagePath>Assets\line_2.jpg</PackagePath>
+      <Modified>2014-06-05T13:57:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\Assets\line_3.jpg">
+      <PackagePath>Assets\line_3.jpg</PackagePath>
+      <Modified>2014-06-05T14:17:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\Assets\line_5.jpg">
+      <PackagePath>Assets\line_5.jpg</PackagePath>
+      <Modified>2014-06-06T05:32:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\Assets\line_6.jpg">
+      <PackagePath>Assets\line_6.jpg</PackagePath>
+      <Modified>2014-06-06T05:38:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\Assets\log.jpg">
+      <PackagePath>Assets\log.jpg</PackagePath>
+      <Modified>2014-06-06T05:31:25.688</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\Assets\peoplr.jpg">
+      <PackagePath>Assets\peoplr.jpg</PackagePath>
+      <Modified>2014-06-05T11:38:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\Assets\register.jpg">
+      <PackagePath>Assets\register.jpg</PackagePath>
+      <Modified>2014-06-06T05:31:25.673</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\Assets\story.jpg">
+      <PackagePath>Assets\story.jpg</PackagePath>
+      <Modified>2014-06-05T06:47:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\Assets\sun.jpg">
+      <PackagePath>Assets\sun.jpg</PackagePath>
+      <Modified>2014-06-05T14:07:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\Assets\table.jpg">
+      <PackagePath>Assets\table.jpg</PackagePath>
+      <Modified>2014-06-05T12:52:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\Assets\title.jpg">
+      <PackagePath>Assets\title.jpg</PackagePath>
+      <Modified>2014-06-05T17:02:58.382</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\Assets\good.png">
+      <PackagePath>Assets\good.png</PackagePath>
+      <Modified>2014-06-05T18:38:24.689</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-24T16:00:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-24T16:00:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <Modified>2013-09-24T16:00:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-09-24T16:00:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\Assets\赞.png">
+      <PackagePath>Assets\赞.png</PackagePath>
+      <Modified>2014-06-06T05:31:25.688</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-06-05T06:47:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-06-09T11:28:47.937</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\bin\Debug\MePage.xbf">
+      <PackagePath>MePage.xbf</PackagePath>
+      <Modified>2014-06-06T05:45:34.384</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\bin\Debug\RecipePage.xbf">
+      <PackagePath>RecipePage.xbf</PackagePath>
+      <Modified>2014-06-06T05:41:39.488</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\bin\Debug\SettingPage.xbf">
+      <PackagePath>SettingPage.xbf</PackagePath>
+      <Modified>2014-06-06T05:45:34.384</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\bin\Debug\StoryPage.xbf">
+      <PackagePath>StoryPage.xbf</PackagePath>
+      <Modified>2014-06-06T05:41:39.488</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\柳\Desktop\学习\大二下\现代操作系统开发\期末作业\且行且烹饪\且行且烹饪\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-06-09T08:28:22.037</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

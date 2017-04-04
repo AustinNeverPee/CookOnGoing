@@ -1,0 +1,52 @@
+﻿<Page
+    x:Class="且行且烹饪.MePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:且行且烹饪"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.TopAppBar>
+        <AppBar>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="1356">
+                <AppBarButton Icon="RepeatAll" Label="刷新" />
+                <AppBarButton x:ConnectionId='1' x:Name="Home" Icon="Home" Label="主页"                    />
+            </StackPanel>
+        </AppBar>
+    </Page.TopAppBar>
+
+    <Grid Background="#FF9751C5">
+    	<TextBox HorizontalAlignment="Left" Margin="335,266,0,0" TextWrapping="Wrap" Text="&#xD;&#xA;" VerticalAlignment="Top" Height="54" Width="245" FontSize="32"/>
+    	<TextBox HorizontalAlignment="Left" Margin="335,464,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="54" Width="245" FontSize="32"/>
+    	<TextBlock HorizontalAlignment="Left" Margin="335,202,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="59" Width="126" FontSize="48" FontFamily="Calibri" Text="账号"/>
+    	<TextBlock HorizontalAlignment="Left" Margin="335,400,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="59" Width="126" FontSize="48" FontFamily="Arial" Text="密码"/>
+    	<Button Content="" HorizontalAlignment="Left" Margin="757.5,287,0,0" VerticalAlignment="Top" Height="118" Width="247" FontSize="64" BorderThickness="0" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+    		<Button.RenderTransform>
+    			<CompositeTransform Rotation="-14.294"/>
+    		</Button.RenderTransform>
+    		<Button.Background>
+    			<ImageBrush ImageSource="ms-appx:/Assets/log.jpg" Stretch="Fill"/>
+    		</Button.Background>
+    	</Button>
+    	<Button Content="" HorizontalAlignment="Left" Margin="942,470.5,0,0" VerticalAlignment="Top" Height="110" Width="249" FontSize="64" BorderThickness="0" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+    		<Button.RenderTransform>
+    			<CompositeTransform Rotation="16.688"/>
+    		</Button.RenderTransform>
+    		<Button.Background>
+    			<ImageBrush ImageSource="ms-appx:/Assets/register.jpg" Stretch="Fill"/>
+    		</Button.Background>
+    	</Button>
+    	<Image Margin="1034,294,89,339" Source="Assets/line_6.jpg" Stretch="Fill"/>
+        
+    </Grid>
+
+    <Page.BottomAppBar>
+        <AppBar>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                
+            </StackPanel>
+        </AppBar>
+    </Page.BottomAppBar>
+</Page>
+
